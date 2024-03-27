@@ -25,7 +25,7 @@ The components of the game state are as follows:
 
 ## API Endpoint - New Game
 
-Your API is essentially implementing a simple AI for the Pente game. You are NOT asked to make good moves, but you must make legal moves.
+Your API is essentially implementing a simple AI for the Connect Four game. You are NOT asked to make good moves, but you must make legal moves.
 
 /newgame/player
 
