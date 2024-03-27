@@ -67,4 +67,4 @@ The **gamestate** should be the new state of the game incorporating your move. T
 
 ## Submission
 
-Please submit this assignment on Moodle. Both you and your partner should submit identical files. Please put a comment at the top of your code file(s) including the names of both partners. (If you have a team of three, include all three names in the comment.)
+Please submit this assignment on Moodle. Everyone on your team should submit identical files. You MUST put a comment at the top of your code file(s) with the names of everyone on your team. 
