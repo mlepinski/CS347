@@ -54,9 +54,20 @@ If there is anything that I should know in order to build and run your system, p
 
 ## Reflective Writing
 
-In addittion to 
+In adition to turning in your code, I also need you to provide a written reflection on Assignments 1 and 2. 
+There is no particular format or style that I require for this reflection. 
+I would expect that the reflection is probably one to three pages in length (with double-spaced with reasonable font size and margins). 
+That is, I expect most students will have text going onto a second page, but I would be suprised if anyone had text going onto a fourth page.
 
-1. Thinking about the design of the API. What lessons can you take forward to design better APIs in the future
+Your reflection should address the following two questions:
 
-2. Thinking about integrating code written by different people. What should developers do to make integration of the pieces as easy as possible
-3. 
+1. In this assignment you made use of a specified API for communicating between a main server and a supplementary component of the system (in this case, the AI).
+For your final project, you will need to design similar API specifications.
+What were the strengths and weaknesses of the API specification that you used for this assignment?
+What lessons can you take forward to design better APIs in the future?
+
+2. In this assignment, you integrated code that was written by different people. 
+This is also something that you will need to do in your final project. 
+Comment on the experience that you had with this type of code integration in assignment 2.
+What lessons can you take away from this experience on things that you (and other devleopers) should do in producing software to make the integration of different pieces of a system as easy as possible?
+
