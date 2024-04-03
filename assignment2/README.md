@@ -36,7 +36,7 @@ The system that you build MUST meet the following requirements:
 - The players in the games must make legal moves and the game must correctly stop when one player wins (or a tie is reached).
 - The system must be reasonably well-tested and free of significant bugs.
 
-The three components were each tested by the authors who writing them. 
+The three components were each tested by the authors who wrote them.
 Therefore, the code that you are starting with should be mostly correct and free from major bugs. 
 (My apologies if you encounter a significant bug. Sadly, I am human, and sometimes we mess up)
 
