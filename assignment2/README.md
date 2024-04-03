@@ -43,7 +43,7 @@ Therefore, the code that you are starting with should be mostly correct and free
 In order to integrate the code into a complete system, you will likely need to make some minor edits to some of the code that you are given. 
 You are welcome to make the changes you feel are necessary. 
 However, I would ask that you please keep the AI strategies/algorithms as similar as possible. 
-(That is, **don't completely re-write the AI code**. Use the AI logic and strategies from the Assignment 1 code. I realize these might not be brilliant AI strategies, but you should utilize them anyway. For example, if you are given code that always makes vertical stacks of pieces to try and win, then the AI player in your system should also be focused on making vertical stacks). 
+**Don't completely re-write the AI code**. Use the AI logic and strategies from the Assignment 1 code. I realize these might not be brilliant AI strategies, but you should utilize them anyway. (For example, if you are given code that always makes vertical stacks of pieces to try and win, then the AI player in your system should also be focused on making vertical stacks). 
 
 **Please reach out to me if you have any questions.** 
 For the purposes of this project, I am a senior collegue who is contributing code to a sytem that you are working on.
@@ -56,6 +56,7 @@ If there is anything that I should know in order to build and run your system, p
 
 In adition to turning in your code, I also need you to provide a written reflection on Assignments 1 and 2. 
 There is no particular format or style that I require for this reflection. 
+
 I would expect that the reflection is probably one to three pages in length (with double-spaced with reasonable font size and margins). 
 That is, I expect most students will have text going onto a second page, but I would be suprised if anyone had text going onto a fourth page.
 
