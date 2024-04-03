@@ -9,7 +9,7 @@ Here are my goals for assignment 1 and assignment 2:
 - Provide an experience integrating code writen by different people
 - Provide an opportunity to think critically about the design of APIs used for machine-to-machine communication
 
-With these goals in mind, I am asking you and your colleagues to implement a system with several components that need to interfact with each other.
+With these goals in mind, I am asking you and your colleagues to implement a system with several components that need to interfact with each other using an HTTP API.
 
 ## Overview of the System
 
