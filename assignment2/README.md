@@ -1,4 +1,4 @@
-## Goals for Assignments 1 and 2
+## Goals for Assignments One and Two
 
 Here are my goals for assignment 1 and assignment 2:
 
@@ -29,7 +29,7 @@ You will receive via email the code for Components 2 and 3. You will then integr
 
 ## Assignment Two Requirements
 
-The system that build MUST meet the following requirements:
+The system that you build MUST meet the following requirements:
 
 - You must have three docker containers, one for each of the three components (listed above)
 - A human must be able to watch multiple games at once in different tabs. (I put some delays into my web server code which allows the games to play out slowly enough to watch two games at the same time in different tabs.)
