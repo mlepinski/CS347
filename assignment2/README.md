@@ -43,7 +43,7 @@ Therefore, the code that you are starting with should be mostly correct and free
 In order to integrate the code into a complete system, you will likely need to make some minor edits to some of the code that you are given. 
 You are welcome to make the changes you feel are necessary. 
 However, I would ask that you please keep the AI strategies/algorithms as similar as possible. 
-(That is, don't completely re-write the AI code. Use the AI logic and strategies from the Assignment 1 code. I realize these might not be brilliant AI strategies, but you should utilize them anyway. For example, if you are given code that always makes vertical stacks of pieces to try and win, then the AI player in your system should also be focused on making vertical stacks). 
+(That is, **don't completely re-write the AI code**. Use the AI logic and strategies from the Assignment 1 code. I realize these might not be brilliant AI strategies, but you should utilize them anyway. For example, if you are given code that always makes vertical stacks of pieces to try and win, then the AI player in your system should also be focused on making vertical stacks). 
 
 **Please reach out to me if you have any questions.** 
 For the purposes of this project, I am a senior collegue who is contributing code to a sytem that you are working on.
