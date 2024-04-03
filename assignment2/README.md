@@ -34,7 +34,7 @@ The system that you build MUST meet the following requirements:
 - You must have three docker containers, one for each of the three components (listed above)
 - A human must be able to watch multiple games at once in different tabs. (I put some delays into my web server code which allows the games to play out slowly enough to watch two games at the same time in different tabs.)
 - The players in the games must make legal moves and the game must correctly stop when one player wins (or a tie is reached).
-- The system must be reasonably well-tested and largely free of bugs
+- The system must be reasonably well-tested and free of significant bugs.
 
 The three components were each tested by the authors who writing them. 
 Therefore, the code that you are starting with should be mostly correct and free from major bugs. 
