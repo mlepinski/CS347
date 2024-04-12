@@ -1,0 +1,7 @@
+FROM mysql
+
+COPY db-setup.sql /docker-entrypoint-initdb.d
+
+ENV MYSQL_ROOT_PASSWORD=nunuiscute6933
+
+EXPOSE 3306
