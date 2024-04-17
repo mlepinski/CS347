@@ -1,0 +1,48 @@
+## NOTE: I chose not to use a Dockerfile for db
+##    because I am not deviating much from the default mysql image
+##    In particular, I don't need to run any configuration commands like pip
+
+## NOTE: The volumes command makes a directory on my laptop
+##    accessible from within the container machine
+##
+##    From the documentation of the mysql image, I learned that
+##       /docker-entrypoint-initdb.d/
+##    Is the location where the container machine is configured to look
+##    For SQL commands to setup the database if the database doesn't exist
+
+services:
+  app:
+    build: ./app
+    ports:
+      - "80:5555"
+    restart: on-failure
+    depends_on:
+      - "db"
+  db:
+    image: mysql
+    expose:
+      - "3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: nunuiscute6933
+    restart: on-failure
+
+# volumes connect a folder on my machine with a folder on the container machine
+# ./db is a directory on my laptop with SQL code to create a new database
+#      The MySQL image in Docker is setup so that it looks for initialization
+#      code in /docker-entrypoint-initdb.d
+#    I know this because I looked up the documentation online for Docker mysql
+# The first volume links the container location /docker-entrypoint-initdb.d
+# to the ./db on my machine
+
+# If I want the database to persist after the container ends and then restarts
+#   Then I need to store the database on a volume connected to my machine
+# The second volume links the location where mysql stores its database
+# to the ./db-storage folder on my machine
+
+    volumes:
+      - ./db:/docker-entrypoint-initdb.d/
+      - ./db-storage:/var/lib/mysql
+
+#  volumes:
+#    - ./db:/docker-entrypoint-initdb.d/
+#    - ./db-storage:/var/lib/mysql
