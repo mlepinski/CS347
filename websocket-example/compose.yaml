@@ -1,0 +1,8 @@
+# Add a service for each of the two AI 
+
+services:
+    main:
+        build: ./main
+        ports:
+          - "5555:5555"
+
