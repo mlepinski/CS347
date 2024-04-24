@@ -1,0 +1,30 @@
+.heading-class{
+  text-align: center;
+}
+
+
+.center-med{
+    text-align: center;
+    font-size: large;
+}
+
+.center-big{
+    text-align: center;
+    font-size: 80px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.red{
+    color: red;
+    margin-right: 30px;
+}
+
+.blue{
+    color: blue;
+    margin-left: 30px;
+}
+
+.big-button{
+  font-size: large;
+}
